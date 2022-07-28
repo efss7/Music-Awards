@@ -3,7 +3,7 @@
 <a href="#tecnologia">Tecnologia</a> |
 <a href="#link">Link da API</a> |
 <a href="#documentação">Documentação</a> |
-<a href="#orientacoes">Orientações</a> |
+<a href="#orientações">Orientações</a> |
 <a href="#features">Features</a> |
 <a href="#back">Rodando o back-end</a> |
 <a href="#desenvolvedores">Desenvolvedores</a>
@@ -29,11 +29,11 @@ Uma API REST para um festival de música em um fim de semana. Nessa API, podemos
 
 - Na documentação você encontra todas informações sobre como usar cada endpoint da API. Você pode clicar em "Run in Postman" para testar os endpoints na versão web do postman.
 - [Documentação](https://documenter.getpostman.com/view/20351643/UzQvtk4N)
-- Você tambem pode usar o arquivo JSON  com os endPonins se tiver o postman instalado na sua máquina.
+- Você tambem pode usar o arquivo JSON  com os endPoints se tiver o postman instalado na sua máquina.
 - [POSTMAN](https://www.postman.com/downloads/)
 - [Labenu-Music-Awards-IDP.postman_collection.json](https://github.com/AdeirMoreira/Projeto-Music-Awards/blob/master/Labenu-Music-Awards-IDP.postman_collection.json)
 
-<h2 id="orientacoes">🚨 Orientações para acesso</h2>
+<h2 id="orientações">🚨 Orientações para acesso</h2>
 
 - Realizar o login se já possui um cadastro;
 - Realizar o cadastro com nome, email e senha se não possuir cadastro.
@@ -61,7 +61,7 @@ Uma API REST para um festival de música em um fim de semana. Nessa API, podemos
 
 📅 Adicionar show
 
-- [x] Para cadastrar um show, o endpoint precisa do id da banda, o dia (sexta, sábado ou domingo) e o horário em que ela irá se apresentar. Existe uma validação para indicar se o horário é válido (ou seja, se está entre 08h e 23h). Além disso os shows só podem ser marcados em horários redondos, ou seja, pode ser 08h - 09h ou 09h - 13h mas não pode ser 09h - 10h30 ou 10h30 - 14h. Caso já exista um show marcado para o dia e o horário em questão, o ndpoint retorna um erro indicando o horário do show em conflito.
+- [x] Para cadastrar um show, o endpoint precisa do id da banda, o dia (sexta, sábado ou domingo) e o horário em que ela irá se apresentar. Existe uma validação para indicar se o horário é válido (ou seja, se está entre 08h e 23h). Além disso os shows só podem ser marcados em horários redondos, ou seja, pode ser 08h - 09h ou 09h - 13h mas não pode ser 09h - 10h30 ou 10h30 - 14h. Caso já exista um show marcado para o dia e o horário em questão, o endpoint retorna um erro indicando o horário do show em conflito.
 
 🔍 Data e shows
 
